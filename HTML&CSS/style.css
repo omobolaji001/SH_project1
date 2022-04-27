@@ -1,0 +1,338 @@
+body{
+    background: hsl(218, 28%, 13%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+#navigate{
+    float: right;
+}
+.navigate{
+    display: inline;
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+    
+}
+#intro{
+    display: block;
+    margin-top: 20px;
+    width: 30%;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.intro{
+    text-align: center;
+    color: white;
+   
+}
+.intro h3{
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    line-height: 30px;
+}
+.intro p{
+    width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    font-size: 14px;
+}
+#start{
+    width: 18%;
+    background: hsl(176, 68%, 64%);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+.content{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;  
+    color: white;
+}
+.content div{
+    text-align: center;
+    padding: 100px;
+}
+.content img{
+    display: block;
+    margin: auto;
+
+}
+
+.content2{
+    display: flex;
+    justify-content: space-around;  
+    color: white;
+}
+.content2 div{
+    text-align: center;
+    padding: 100px;
+}
+.content2 img{
+    display: block;
+    margin: auto;
+}
+.productive{
+    display: flex;  
+    justify-content: space-between; 
+    color: hsl(0, 0%, 100%);
+}
+a{
+    color: hsl(176, 68%, 64%);
+}
+#productive{
+    margin-left: 100px;
+    line-height: 30px;
+}
+#bigquotes{
+    margin-top: 200px;
+    margin-left: 40px;
+}
+#quotes{
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+#quotes div{
+    background: hsl(219, 30%, 18%);
+    border-radius: 10px;
+    padding: 25px;
+    width: 32%;
+    margin: 15px;
+    margin-top: 0px;
+}
+#quotes img{
+    border-radius: 50%;
+    float: left;
+}
+#quotes p{
+    
+    margin-bottom: 60px;
+}
+#signup{
+    color: hsl(0, 0%, 100%);
+    width: 500px;
+    background:hsl(217, 28%, 15%);
+    margin-top: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+#signup form,h3{
+    display: inline-block;
+}
+#signup input{
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+}
+#started{   
+    font-size: 12px;
+    width: 150px;
+    height: 20px;
+    background: hsl(176, 68%, 64%);
+    outline-offset: 30px;
+    border-radius: 20px;
+}
+footer{
+    color: hsl(0, 0%, 100%);
+    background: hsl(216,53%,9%);
+}
+footer>img{
+    margin-top: 100px;
+}
+#footer{
+    display: flex;  
+}
+#footer div{
+    border-radius: 10px;
+    padding: 25px;
+    width: 35%;
+    margin: 15px;
+    margin-top: 10px;
+}
+#location{
+    float: left;
+    
+}
+.footer{
+   display: inline;
+   clear: left;
+   margin-left: 10px;
+}
+#phone{
+    float: left;
+}
+#email{
+    float: left;  
+}
+.contact{
+    width: 30px;
+    margin: 10px;
+}
+@media screen and (max-width:375px) {
+    #logo{
+        width: 100px;
+    }
+    #navigate{
+        float: right;
+        
+    }
+    .navigate{
+        font-size: 10px;
+        display: inline;
+        color: hsl(0, 0%, 100%);
+        margin: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    } 
+    .intro h3{
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        line-height: 20px;
+    }
+    .intro p{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+    #start{
+        width: 40%;
+        background: hsl(176, 68%, 64%);
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content: center;  
+        color: white;
+        font-size: 12px;
+    }
+    .content div{
+        text-align: center;
+        padding: 30px;
+    }
+    .content img{
+        display: block;
+        margin: auto;
+    
+    }
+    
+    .content2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        color: white;
+    }
+    .content2 div{
+        text-align: center;
+        padding: 30px;
+    }
+    .content2 img{
+        display: block;
+        margin: auto;
+    }
+    #stayproductive{
+        width: 250px;
+        margin-left: 20px;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+    .productive{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center; 
+        color: hsl(0, 0%, 100%);
+    }
+    a{
+        color: hsl(176, 68%, 64%);
+    }
+    #productive{
+        margin-left: 20px;
+        margin-right: auto;
+        line-height: 30px;
+    }
+    #bigquotes{
+        margin-top: 200px;
+        margin-left: 5px;
+    }
+    #quotes{
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    #quotes div{
+        background: hsl(219, 30%, 18%);
+        border-radius: 10px;
+        padding: 25px;
+        width: 80%;
+        margin: 5px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #quotes img{
+        border-radius: 50%;
+        float: left;
+    }
+    #quotes p{
+        
+        margin-bottom: 60px;
+    }
+    #signup{
+        color: hsl(0, 0%, 100%);
+        width: 80%;
+        background:hsl(217, 28%, 15%);
+        margin-top: 200px;
+        margin: auto;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    #signup form,h3{
+        display: inline-block;
+    }
+    #signup input{
+        width: 200px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    #started{   
+        font-size: 12px;
+        width: 200px;
+        height: 20px;
+        background: hsl(176, 68%, 64%);
+        outline-offset: 30px;
+        border-radius: 20px;
+    }
+    #footer{
+        display: flex; 
+        flex-direction: column; 
+    }
+    #footer div{
+        border-radius: 10px;
+        padding: 25px;
+        width: 80%;
+        margin: 15px;
+        margin-top: 10px;
+    }
+    
+}
